@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Navbar</title>
+</head>
+<body>
+    <nav>
+        <div class="izquierda">
+            <div class="logo">Navbar</div>
+            <ul class="lista-menu">
+                <li>Home</li>
+                <li>Link</li>
+                <li>Dropdown</li>
+                <li>Disabled</li>
+            </ul>
+        </div>
+        <div class="derecha">
+            <div id="busqueda"><input type="text"><button>Search</button></div>
+            <div id="hamburguesa" class="displayNone"><button><i class="fas fa-bars"></i></button></div>
+        </div>
+    </nav>
+    <div id="menu-mobile" class="displayNone-2">
+        <ul>
+            <li>Home</li>
+            <li>Link</li>
+            <li>Dropdown</li>
+            <li>Disabled</li>
+        </ul>
+    </div>
+    <script src="hamburguesa.js"></script>
+</body>
+</html>
